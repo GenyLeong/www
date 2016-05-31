@@ -1,0 +1,25 @@
+  @import "../helpers/mixins.scss";
+
+  #section1 {color: #fff; background-color: $guindamasclaro;}
+
+    .section1{
+  	background-color: $azulmarino;
+  	height: 33.33%;
+    justify-content:center;
+	}
+    
+    #section1{
+    	h1{
+        font-family: $font-family-sunshiney;
+        font-size: 63px;
+        margin-top: 14px;
+    	}
+	}
+
+ .trabajos{
+ 	img{
+ 		width: 100%;
+ 		border: 1px solid whitesmoke;
+ 	}
+ }
+

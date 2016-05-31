@@ -1,0 +1,13 @@
+mixin link(href, name)
+  a(href=href)&attributes(attributes)= name
+    block
+
+mixin image(src, name, id)
+  img(class!='description img-responsive', src=src, id='herramienta')
+
+
+mixin font-awesome(href, clase)
+  .col-xs-3.v-center
+    a(href=href)
+      i(aria-hidden="true")&attributes(attributes)= clase
+

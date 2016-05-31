@@ -1,0 +1,124 @@
+@media (max-width: 479px) {
+
+	.col-sm-11 {
+		left: 0px;
+		width: 100%;
+		margin-top: 50px;
+	}
+
+	.navbar{
+			margin: 0 !important;
+    		border-color: currentColor !important;
+    	    border-width: 0px;
+	}
+
+	#menu{
+		display: flex;
+		.section0, .section1, .section2{
+			width: 33.33%;
+			height: 51px;
+		  		
+		  		li{
+		        font-family: $font-family-cookie;
+		        font-size: 2.5rem;
+		   		}
+		  		
+		  		li.active{
+		  			font-family: $font-family-cookie;
+		  			font-size: 3rem;
+			          a{
+			        color: white;
+			    	}
+		  		}
+		  
+		  		a{
+			        color: $rosadito;
+			        text-decoration: none !important;
+			        line-height: 7px;
+		    	}
+			}
+		}
+
+		#maquinas{
+		font-size: 6rem;
+		}
+
+		#maquinaria{
+		font-size: 5rem;
+		}
+
+		.ibg-bg {
+		    position: absolute;
+		    background-position: 7px -220px !important;
+
+		}	
+
+}
+
+@media (min-width: 480px) and (max-width: 767px){
+	.col-sm-11 {
+		left: 0px;
+		width: 100%;
+	    margin-top: 64px;
+	}
+
+	#menu{
+		display: flex;
+		.section0, .section1, .section2{
+			   width: 33.33%;
+			   height: 65px;
+
+		}
+	}
+	.navbar{
+			margin: 0 !important;
+    		border-color: currentColor !important;
+    	    border-width: 0px;
+	}
+
+	#maquinas{
+		font-size: 7rem;
+	}
+
+	#maquinaria{
+		font-size: 4.5rem;
+		bottom: 60px;
+	}
+
+	li{
+		   font-family: $font-family-cookie;
+		   font-size: 3.5rem !important;
+	}
+		  		
+	li.active{
+		 font-family: $font-family-cookie;
+		 font-size: 4rem !important;
+		a{
+			color: white;
+		}
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+#menu{
+
+		  		li{
+		        font-family: $font-family-cookie;
+		        font-size: 4rem;
+		   		}
+		  		
+		  		li.active{
+		  			font-family: $font-family-cookie;
+		  			font-size: 4rem;
+			          a{
+			        color: white;
+			    	}
+		  		}
+  a{
+        color: $rosadito;
+        text-decoration: none !important;
+        line-height: 7px;
+    }
+}
+}

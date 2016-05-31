@@ -1,0 +1,102 @@
+@import "../helpers/mixins.scss";
+
+.nav-menu{
+  height: 100%;
+  .nav-stacked{
+    height: 100%;
+  }
+}
+
+  body {
+        @extend .hero-image;
+        padding: 0;
+        position: relative;
+        margin: 0;
+        overflow:hidden; 
+    }
+
+html, #section0, #section1, #section2{
+  @extend .hero-image;
+ }
+
+h1{
+  @include margin(0px, 0px, 0px, 0px);
+}
+  
+  .col-sm-11 {
+      width: 91.66667%;
+      height: 100%;
+      position: relative;
+      left: 8.33333%;
+  }
+
+  #section0 {color: #fff; background-image: url('../img/brain.jpg');
+        background-repeat: repeat;
+  }
+
+ .section0{
+  background-color: $azulmarinostronger;
+  height: 33.33%;
+  justify-content:center;
+ }
+
+#menu{
+
+  li, li.active{
+        font-family: $font-family-cookie;
+        font-size: 3.5rem;
+   }
+  li.active{
+      font-size: 4rem;
+          a{
+        color: white;
+    }
+  }
+  a{
+        color: $rosadito;
+        text-decoration: none !important;
+        line-height: 7px;
+    }
+}
+
+    .wrapper {
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
+
+    #maquinas {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    }
+
+    .bg {
+      min-height: 100% !important;
+      width: 100%;
+      z-index: 0;
+    }
+    
+    .ibg-bg {
+      position: absolute;
+      height: 100% !important; 
+    }
+
+#maquinas, #maquinaria{
+    font-size:9rem;
+    color:$blanco;
+    font-family: $font-family-sunshiney, cursive;
+}
+
+ .main {
+      position: relative;
+    }
+
+#maquinaria{
+    width: 100%;
+    position: absolute;
+    bottom: 39px;
+    font-size: 7rem;
+}

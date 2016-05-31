@@ -1,0 +1,115 @@
+
+#pre-load-web{
+	position: relative;
+	width: 100%;
+	background-color: white !important;
+}
+
+.cssload-clock{
+	border-radius: 37px;
+	border: 2px solid rgb(0,0,0);
+	height: 50px;
+	width: 50px;
+	position: relative;
+	left: 35%;
+	left: calc(50% - 27px);
+		left: -o-calc(50% - 27px);
+		left: -ms-calc(50% - 27px);
+		left: -webkit-calc(50% - 27px);
+		left: -moz-calc(50% - 27px);
+}
+.cssload-clock:after{
+	content: "";
+	position: absolute;
+	background-color: rgb(0,0,0);
+	top:1px;
+	left: 48%;
+	height: 24px;
+	width: 2px;
+	border-radius: 3px;
+	transform-origin: 50% 97%;
+		-o-transform-origin: 50% 97%;
+		-ms-transform-origin: 50% 97%;
+		-webkit-transform-origin: 50% 97%;
+		-moz-transform-origin: 50% 97%;
+	animation: grdAiguille 2.9s linear infinite;
+		-o-animation: grdAiguille 2.9s linear infinite;
+		-ms-animation: grdAiguille 2.9s linear infinite;
+		-webkit-animation: grdAiguille 2.9s linear infinite;
+		-moz-animation: grdAiguille 2.9s linear infinite;
+}
+
+
+
+.cssload-clock:before{
+	content: "";
+	position: absolute;
+	background-color: rgb(0,0,0);
+	top:4px;
+	left: 48%;
+	height: 22px;
+	width: 2px;
+	border-radius: 3px;
+	transform-origin: 50% 94%;
+		-o-transform-origin: 50% 94%;
+		-ms-transform-origin: 50% 94%;
+		-webkit-transform-origin: 50% 94%;
+		-moz-transform-origin: 50% 94%;
+	animation: ptAiguille 17.4s linear infinite;
+		-o-animation: ptAiguille 17.4s linear infinite;
+		-ms-animation: ptAiguille 17.4s linear infinite;
+		-webkit-animation: ptAiguille 17.4s linear infinite;
+		-moz-animation: ptAiguille 17.4s linear infinite;
+}
+
+
+
+@keyframes grdAiguille{
+		0%{transform:rotate(0deg);}
+		100%{transform:rotate(360deg);}
+}
+
+@-o-keyframes grdAiguille{
+		0%{-o-transform:rotate(0deg);}
+		100%{-o-transform:rotate(360deg);}
+}
+
+@-ms-keyframes grdAiguille{
+		0%{-ms-transform:rotate(0deg);}
+		100%{-ms-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes grdAiguille{
+		0%{-webkit-transform:rotate(0deg);}
+		100%{-webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes grdAiguille{
+		0%{-moz-transform:rotate(0deg);}
+		100%{-moz-transform:rotate(360deg);}
+}
+
+@keyframes ptAiguille{
+		0%{transform:rotate(0deg);}
+		100%{transform:rotate(360deg);}
+}
+
+@-o-keyframes ptAiguille{
+		0%{-o-transform:rotate(0deg);}
+		100%{-o-transform:rotate(360deg);}
+}
+
+@-ms-keyframes ptAiguille{
+		0%{-ms-transform:rotate(0deg);}
+		100%{-ms-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes ptAiguille{
+		0%{-webkit-transform:rotate(0deg);}
+		100%{-webkit-transform:rotate(360deg);}
+}
+
+@-moz-keyframes ptAiguille{
+		0%{-moz-transform:rotate(0deg);}
+		100%{-moz-transform:rotate(360deg);}
+}

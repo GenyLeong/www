@@ -1,0 +1,179 @@
+include ../helpers/mixins.jade
+#pre-load-web.v-center
+  .cssload-clock
+.container-fluid.hero-image.pd-0
+  .row.hero-image.mg-0
+    #esconder.col-sm-1.col-md-1.pd-0.navbar-fixed-top.nav-menu.hidden-xs
+      ul.nav.nav-pills.nav-stacked#menu
+        .section0.v-center
+          li.active(data-menuanchor="firstPage")
+            +link('#firstPage', 'Home')(class="text-center")
+        .section1.v-center
+          li(data-menuanchor="secondPage")
+            +link('#secondPage', 'Work')(class="text-center")
+        .section2.v-center.text-center
+          li(data-menuanchor="3rdPage")
+            +link('#3rdPage', 'About who?')(class="text-center")
+
+    .col-sm-11.pd-0
+      #fullpage
+        .section.active#section0
+          .wrapper.bg(data-ibg-bg="assets/img/brain.jpg")
+           .main
+             h1.text-center#maquinas
+             h3.text-center#maquinaria
+        .section#section1
+          .container-fluid
+              h1.text-center Estos son algunos trabajos que he desarrollado como front-end developer
+              .row.mt-21
+                .col-xs-6.col-sm-4.trabajos
+                  +link('https://genyleong.github.io/user-testing')(class="text-center")
+                    img(src="assets/img/usertesting.png" class="img-responsive")
+                .col-xs-6.col-sm-4.trabajos
+                  +link('https://genyleong.github.io/responsive-blog')(class="text-center")
+                    img(src="assets/img/blog.png" class="img-responsive")
+                .col-sm-4.hidden-xs-down.trabajos
+                  +link('https://genyleong.github.io/prime/')(class="text-center")
+                    img(src="assets/img/prime.png" class="img-responsive")
+              .row.mt-21
+                .col-sm-4.hidden-xs-down.trabajos
+                  +link('https://genyleong.github.io/flat-theme/')(class="text-center")
+                    img(src="assets/img/flat.png" class="img-responsive")
+                .col-xs-6.col-sm-4.trabajos
+                  +link('https://genyleong.github.io/backyard')(class="text-center")
+                    img(src="assets/img/backyard.png" class="img-responsive")
+                .col-xs-6.col-sm-4.trabajos
+                  +link('http://genyleong.github.io/portfolio/')(class="text-center")
+                    img(src="assets/img/portfolio.png" class="img-responsive")             
+        .section#section2
+          .slide#slide1
+            .container-fluid
+              .row.padding_section2.mg-0 
+                .col-xs-12.col-sm-6
+                  .service
+                    .icon-holder.position_btn1
+                      img(src="./assets/img/aptitudes.svg" class="icon" alt="imagen SVG" title="imagen SVG")
+                    h4.description  Si a ti también te apasiona la tecnología y los sistemas de información y estás buscando una persona a la que le afanen los retos continuos. Estas son las herramientas que ahora empleo [o que he manejado alguna vez en mi vida]
+                    +image("assets/img/herramientas/linux.png")
+                    +image("assets/img/herramientas/fedora.png")
+                    +image("assets/img/herramientas/gnome.png")
+                    +image("assets/img/herramientas/jade.png")
+                    +image("assets/img/herramientas/git.png")
+                    +image("assets/img/herramientas/sass.png")
+                    +image("assets/img/herramientas/js.png")
+                    +image("assets/img/herramientas/html.png")
+                    +image("assets/img/herramientas/css3.png")
+                    +image("assets/img/herramientas/bootstrap.png")
+                    +image("assets/img/herramientas/materialize.png")
+                    +image("assets/img/herramientas/sublime.png")
+                    +image("assets/img/herramientas/sap.png")
+                    +image("assets/img/herramientas/java.png")
+                    +image("assets/img/herramientas/cplus.png")
+                .col-sm-6.hidden-xs-down
+                  .service
+                    .icon-holder
+                      img(src="./assets/img/intereses.svg" class="icon" alt="imagen SVG" title="imagen SVG")
+                    .description  
+                      h4 Servidores. 
+                      span 
+                        p Redes. 
+                      span
+                        p Automatización de procesos operativos. 
+                      span
+                        h4 Programación. 
+                      span
+                        p Python. 
+                      span
+                        p Metodologías Agiles. 
+                      span
+                        h4 Sistemas transaccionales. 
+                      span 
+                        p DDoS. 
+                      span
+                        h4 Seguridad Informática. 
+                    .description
+                      h3 Otros asuntos que me mantienen viva:
+                      span
+                        h4 Arte. 
+                      span
+                        p Literatura. 
+                      span
+                        h4 Música. 
+                      span
+                        h4 Cine. 
+                      span
+                        p Culturas urbanas. 
+                      span
+                        p Deportes de aventura. 
+                      span
+                        p Tiempo para mi. 
+                      span
+                        h4 Libertad. 
+                      span
+                        h4 Viajes. 
+                      span
+                        p Conocer gente inteligente. 
+                      span
+                        p Series. 
+                      span
+                        h4 Gatos.
+          .slide#slide2
+            .container-fluid
+              .row.padding_section2.mg-0
+                .col-xs-12.col-sm-6
+                  .service
+                    .icon-holder.position_btn2
+                      img(src="./assets/img/intereses.svg" class="icon" alt="imagen SVG" title="imagen SVG")
+                    .description  
+                      h4 Servidores. 
+                      span 
+                        p Redes. 
+                      span
+                        p Automatización de procesos operativos. 
+                      span
+                        h4 Programación. 
+                      span
+                        p Python. 
+                      span
+                        p Metodologías Agiles. 
+                      span
+                        h4 Sistemas transaccionales. 
+                      span 
+                        p DDoS. 
+                      span
+                        h4 Seguridad Informática. 
+                    .description
+                        h3 Otros asuntos que me mantienen viva:
+                        span
+                          h4 Arte. 
+                        span
+                          p Literatura. 
+                        span
+                          h4 Música. 
+                        span
+                          h4 Cine. 
+                        span
+                          p Culturas urbanas. 
+                        span
+                          p Deportes de aventura. 
+                        span
+                          p Tiempo para mi. 
+                        span
+                          h4 Libertad. 
+                        span
+                          h4 Viajes. 
+                        span
+                          p Conocer gente inteligente. 
+                        span
+                          p Series. 
+                        span
+                          h4 Gatos.
+
+          .slide#slide3
+            .container-fluid
+              h1.text-center Más de mi experiencia y/o contacto
+              .row
+                +font-awesome('https://github.com/GenyLeong/')(class="fa fa-github fa-5x")
+                +font-awesome('https://pe.linkedin.com/in/genesisleoncarbajal')(class="fa fa-linkedin fa-5x")
+                +font-awesome('http://codepen.io/GenyLeong/')(class="fa fa-codepen fa-5x")
+                +font-awesome('https://mail.google.com/')(class="fa fa-envelope-o fa-5x")

@@ -1,0 +1,175 @@
+@import "../helpers/mixins.scss";
+
+#section2 {color: #fff; background-color: $rosado;} 
+
+  .section2{
+    background-color: $azulmarinocasimorado;
+    height: 33.33%;
+    justify-content:center;
+ }
+
+#slide3{
+    h1{
+        font-family: $font-family-sunshiney;
+        font-size: 63px;
+
+    }
+    .fa-5x {
+        font-size: 10em;
+        color:$blanco;
+        &:hover{
+        color:$blanco;
+        }
+    }
+    .col-xs-3{
+        justify-content: center;
+    }
+
+    .row{
+        margin-top: 156px;        
+    }
+}
+//flechas del slide
+
+.fp-controlArrow.fp-next{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 21px 0 21px 21px;
+    border-color: transparent transparent transparent $arrow-color;
+}
+
+.fp-controlArrow.fp-prev{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 21px 21px 21px 0;
+    border-color: transparent $arrow-color transparent transparent;
+}
+
+.ripple-effect {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    -webkit-animation: ripple-animation 2s;
+    animation: ripple-animation 2s;
+}
+@-webkit-keyframes ripple-animation {
+    from {
+        opacity: 0.2;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(100);
+        transform: scale(100);
+    }
+}
+@keyframes ripple-animation {
+    from {
+        opacity: 0.2;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: scale(100);
+        transform: scale(100);
+    }
+}
+.services {
+    margin: 0 0 80px;
+}
+
+.service {
+    width: 100%;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    float: left;
+    position: relative;
+
+    img{
+        display: inline-block;
+    }
+    
+.icon-holder {
+    position: relative;
+    top: 262px;
+    display: inline-block;
+    padding: 10px;
+    background: #7f1a31;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.description {
+    margin: 0 auto;
+    opacity: 0;
+    -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    position: relative;
+    bottom: 63px;
+    font-family: $font-family-exo;
+
+
+    h3{
+        text-decoration: underline;
+    }
+
+    p{
+        font-size: $font-size-small;
+    }
+
+    h4{
+        font-size: $font-size-large;
+    }
+
+}
+
+&:hover{
+
+    .icon-holder {
+        top: -40px;
+    }
+
+    .heading {
+        top: -40px;
+    }
+
+    .description{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+
+    }
+
+    #herramienta{
+        width: 100px;
+        height: 50px;
+        margin: 14px;
+    }
+}
+
+}
+
+#section2 {
+
+.padding_section2{
+    @extend .hero-image;
+    padding: 2%;
+
+}
+
+}
+    .icon{
+        width: 203px;
+        height: 92px;
+    }

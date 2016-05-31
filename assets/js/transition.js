@@ -1,0 +1,1 @@
+$(document).ready(function(){window.location.hash&&(window.location.href=location.href.replace(location.hash,"")),$("#fullpage").fullpage({anchors:["firstPage","secondPage","3rdPage"],menu:"#menu"})});
