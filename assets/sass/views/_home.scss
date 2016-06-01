@@ -12,8 +12,11 @@
         padding: 0;
         position: relative;
         margin: 0;
-        overflow:hidden; 
     }
+    
+.container-fluid{
+  display: none;
+}
 
 html, #section0, #section1, #section2{
   @extend .hero-image;

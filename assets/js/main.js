@@ -20,9 +20,7 @@ function maquina(e, n, a, i) {
 }
 $(document).ready(function() {
     var e = $(window).height();
-    $(".container-fluid").css({
-        display: "none"
-    }), $("#pre-load-web").css({
+ $("#pre-load-web").css({
         height: e + "px"
     })
 }), $(window).load(function() {

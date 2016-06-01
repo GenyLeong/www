@@ -5838,8 +5838,10 @@ button.close {
 body {
   padding: 0;
   position: relative;
-  margin: 0;
-  overflow: hidden; }
+  margin: 0; }
+
+.container-fluid {
+  display: none; }
 
 h1 {
   margin-top: 0px;
