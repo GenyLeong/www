@@ -5814,7 +5814,7 @@ button.close {
     display: none !important; } }
 @font-face {
   font-family: "Simple";
-  src: url(../fonts/simple_life/SimpleLife.ttf); }
+  src: url(../fonts/simple_life/SimpleLife.ttf), url(../fonts/simple_life/SimpleLife.woff); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }
@@ -6003,7 +6003,7 @@ h1 {
     line-height: 7px; } }
 @font-face {
   font-family: "Simple";
-  src: url(../fonts/simple_life/SimpleLife.ttf); }
+  src: url(../fonts/simple_life/SimpleLife.ttf), url(../fonts/simple_life/SimpleLife.woff); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }
@@ -6058,7 +6058,7 @@ h1 {
     font-size: 35px; } }
 @font-face {
   font-family: "Simple";
-  src: url(../fonts/simple_life/SimpleLife.ttf); }
+  src: url(../fonts/simple_life/SimpleLife.ttf), url(../fonts/simple_life/SimpleLife.woff); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }

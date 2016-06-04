@@ -19,5 +19,6 @@ $font-size-small: 14px;
 $simple_life: "Simple";
 @font-face {
     font-family: $simple_life;
-    src: url(../fonts/simple_life/SimpleLife.ttf);
+    src: url(../fonts/simple_life/SimpleLife.ttf), 
+    url(../fonts/simple_life/SimpleLife.woff);
 }
