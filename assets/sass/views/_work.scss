@@ -1,6 +1,4 @@
-  @import "../helpers/mixins.scss";
-
-  #section1 {color: #fff; background-color: $guindamasclaro;}
+ #section1 {color: #fff; background-color: $guindamasclaro;}
 
     .section1{
   	background-color: $azulmarino;
@@ -10,7 +8,7 @@
     
     #section1{
     	h1{
-        font-family: $simple_life;
+        font-family: $font-family-dekko;
         font-size: 63px;
         margin-top: 14px;
     	}

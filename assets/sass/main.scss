@@ -1,4 +1,5 @@
 @import "./stylesheets/bootstrap.scss";
+@import "./helpers/mixins.scss";
 @import "./views/home.scss";
 @import "./base/queries_home.scss";
 @import "./views/work.scss";
@@ -6,6 +7,6 @@
 @import "./views/about.scss";
 @import "./base/queries_about.scss";
 @import url(https://fonts.googleapis.com/css?family=Cookie);
-@import url(https://fonts.googleapis.com/css?family=Sunshiney);
+@import url(https://fonts.googleapis.com/css?family=Dekko);
 @import url(https://fonts.googleapis.com/css?family=Exo);
 
