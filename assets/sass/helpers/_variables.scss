@@ -14,6 +14,10 @@ $blanco: #F7F7F7;
 $jean: #323031;
 $arrow-color:#0e001c;
 $font-family-cookie: "Cookie";
-$font-family-sunshiney: "Sunshiney";
 $font-family-exo: "Exo";
 $font-size-small: 14px;
+$simple_life: "Simple";
+@font-face {
+    font-family: $simple_life;
+    src: url(../fonts/simple_life/SimpleLife.ttf);
+}

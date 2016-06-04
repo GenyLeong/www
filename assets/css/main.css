@@ -5812,6 +5812,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@font-face {
+  font-family: "Simple";
+  src: url(../fonts/simple_life/SimpleLife.ttf); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }
@@ -5896,12 +5899,12 @@ h1 {
 
 .ibg-bg {
   position: absolute;
-  height: 100% !important; }
+  background-position-y: 59%; }
 
 #maquinas, #maquinaria {
   font-size: 9rem;
   color: #F7F7F7;
-  font-family: "Sunshiney", cursive; }
+  font-family: "Simple" cursive; }
 
 .main {
   position: relative; }
@@ -5909,7 +5912,7 @@ h1 {
 #maquinaria {
   width: 100%;
   position: absolute;
-  bottom: 39px;
+  bottom: 0px;
   font-size: 7rem; }
 
 @media (max-width: 479px) {
@@ -5927,7 +5930,12 @@ h1 {
     display: flex; }
     #menu .section0, #menu .section1, #menu .section2 {
       width: 33.33%;
-      height: 51px; }
+      height: 51px;
+    		/*a{
+  	        color: $rosadito;
+  	        text-decoration: none !important;
+  	        line-height: 7px;
+      	}*/ }
       #menu .section0 li, #menu .section1 li, #menu .section2 li {
         font-family: "Cookie";
         font-size: 2.5rem; }
@@ -5936,20 +5944,17 @@ h1 {
         font-size: 3rem; }
         #menu .section0 li.active a, #menu .section1 li.active a, #menu .section2 li.active a {
           color: white; }
-      #menu .section0 a, #menu .section1 a, #menu .section2 a {
-        color: #aa2241;
-        text-decoration: none !important;
-        line-height: 7px; }
 
   #maquinas {
     font-size: 6rem; }
 
   #maquinaria {
-    font-size: 5rem; }
+    font-size: 5rem;
+    bottom: 39px; }
 
   .ibg-bg {
     position: absolute;
-    background-position: 7px -220px !important; } }
+    background-position: 7px -423px !important; } }
 @media (min-width: 480px) and (max-width: 767px) {
   .col-sm-11 {
     left: 0px;
@@ -5963,7 +5968,7 @@ h1 {
       height: 65px; }
 
   .navbar {
-    margin: 0 !important;
+    margin: 0;
     border-color: currentColor !important;
     border-width: 0px; }
 
@@ -5996,6 +6001,9 @@ h1 {
     color: #aa2241;
     text-decoration: none !important;
     line-height: 7px; } }
+@font-face {
+  font-family: "Simple";
+  src: url(../fonts/simple_life/SimpleLife.ttf); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }
@@ -6024,7 +6032,7 @@ h1 {
   justify-content: center; }
 
 #section1 h1 {
-  font-family: "Sunshiney";
+  font-family: "Simple";
   font-size: 63px;
   margin-top: 14px; }
 
@@ -6038,7 +6046,7 @@ h1 {
     visibility: hidden; }
 
   #section1 h1 {
-    font-family: "Sunshiney";
+    font-family: "Simple";
     font-size: 42px; } }
 @media (max-width: 480px) {
   .hidden-xs-down {
@@ -6046,8 +6054,11 @@ h1 {
     visibility: hidden; }
 
   #section1 h1 {
-    font-family: "Sunshiney";
+    font-family: "Simple";
     font-size: 35px; } }
+@font-face {
+  font-family: "Simple";
+  src: url(../fonts/simple_life/SimpleLife.ttf); }
 .hero-image, body, html, #section0, #section1, #section2, #section2 .padding_section2 {
   width: 100%;
   height: 100%; }
@@ -6076,7 +6087,7 @@ h1 {
   justify-content: center; }
 
 #slide3 h1 {
-  font-family: "Sunshiney";
+  font-family: "Simple";
   font-size: 63px; }
 #slide3 .fa-5x {
   font-size: 10em;
@@ -6192,7 +6203,7 @@ h1 {
     display: inline-block; }
   .service .position_btn1 {
     position: relative;
-    top: 199px; }
+    top: 153px; }
   .service .position_btn2 {
     position: relative;
     top: 160px; }
@@ -6218,10 +6229,10 @@ h1 {
     min-height: 200px; }
     .service .position_btn1 {
       position: relative;
-      top: 214px; }
+      top: 160px; }
     .service .position_btn2 {
       position: relative;
-      top: 125px; }
+      top: 163px; }
     .service .description h4, .service .description p {
       display: inline-block; }
 
