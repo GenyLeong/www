@@ -6,7 +6,7 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Cookie);
-@import url(https://fonts.googleapis.com/css?family=Dekko);
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
 @import url(https://fonts.googleapis.com/css?family=Exo);
 html {
   font-family: sans-serif;
@@ -5901,7 +5901,7 @@ h1 {
 #maquinas, #maquinaria {
   font-size: 9rem;
   color: #F7F7F7;
-  font-family: "Dekko" cursive; }
+  font-family: "Walter Turncoat", cursive; }
 
 .main {
   position: relative; }
@@ -6008,8 +6008,8 @@ h1 {
   justify-content: center; }
 
 #section1 h1 {
-  font-family: "Dekko";
-  font-size: 63px;
+  font-family: "Walter Turncoat";
+  font-size: 56px;
   margin-top: 14px; }
 
 .trabajos img {
@@ -6022,15 +6022,15 @@ h1 {
     visibility: hidden; }
 
   #section1 h1 {
-    font-family: "Dekko";
-    font-size: 42px; } }
+    font-family: "Walter Turncoat";
+    font-size: 28px; } }
 @media (max-width: 480px) {
   .hidden-xs-down {
     display: none !important;
     visibility: hidden; }
 
   #section1 h1 {
-    font-family: "Dekko";
+    font-family: "Walter Turncoat";
     font-size: 35px; } }
 #section2 {
   color: #fff;
@@ -6042,7 +6042,7 @@ h1 {
   justify-content: center; }
 
 #slide3 h1 {
-  font-family: "Dekko";
+  font-family: "Walter Turncoat";
   font-size: 63px; }
 #slide3 .fa-5x {
   font-size: 10em;
@@ -6142,8 +6142,8 @@ h1 {
     -ms-transform: scale(1);
     transform: scale(1); }
   .service:hover #herramienta {
-    width: 100px;
-    height: 50px;
+    width: 90%;
+    height: auto;
     margin: 14px; }
 
 #section2 .padding_section2 {
@@ -6171,12 +6171,7 @@ h1 {
     font-size: 5em; }
 
   #slide3 .row {
-    margin-top: 100px; }
-
-  #herramienta {
-    width: 100px;
-    height: 50px;
-    margin: 14px; } }
+    margin-top: 100px; } }
 @media (min-width: 480px) and (max-width: 767px) {
   .service {
     margin-bottom: 28px;
@@ -6199,12 +6194,7 @@ h1 {
     font-size: 5em; }
 
   #slide3 .row {
-    margin-top: 100px; }
-
-  #herramienta {
-    width: 100px;
-    height: 50px;
-    margin: 14px; } }
+    margin-top: 100px; } }
 @media (min-width: 768px) and (max-width: 1000px) {
   .service {
     margin-bottom: 28px;
