@@ -5895,8 +5895,7 @@ h1 {
   z-index: 0; }
 
 .ibg-bg {
-  position: absolute;
-  background-position-y: 59%; }
+  position: absolute; }
 
 #maquinas, #maquinaria {
   font-size: 9rem;
