@@ -31,7 +31,7 @@ h1{
       left: 8.33333%;
   }
 
-  #section0 {color: #fff; background-image: url('../img/fondo.jpg');
+  #section0 {color: #fff; background-image: url('../img/brain.jpg');
         background-repeat: repeat;
   }
 
@@ -60,12 +60,12 @@ h1{
     }
 }
 
-    // .wrapper {
-    //   height: auto !important;
-    //   height: 100%;
-    //   margin: 0 auto; 
-    //   overflow: hidden;
-    // }
+    .wrapper {
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto; 
+      overflow: hidden;
+    }
 
     #maquinas {
     width: 100%;
@@ -74,15 +74,14 @@ h1{
     z-index: 1;
     }
 
-    // .bg {
-    //   min-height: 100% !important;
-    //   width: 100%;
-    //   z-index: 0;
-    // }
+    .bg {
+      min-height: 100% !important;
+      width: 100%;
+      z-index: 0;
+    }
     
     .ibg-bg {
       position: absolute;
-      // background-position-y: 59%; 
     }
 
 #maquinas, #maquinaria{
