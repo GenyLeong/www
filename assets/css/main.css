@@ -5857,7 +5857,7 @@ h1 {
 
 #section0 {
   color: #fff;
-  background-image: url("../img/brain.jpg");
+  background-image: url("../img/fondo.jpg");
   background-repeat: repeat; }
 
 .section0 {
@@ -5877,26 +5877,14 @@ h1 {
   text-decoration: none !important;
   line-height: 7px; }
 
-.wrapper {
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto;
-  overflow: hidden; }
-
 #maquinas {
   width: 100%;
   position: fixed;
   top: 0px;
   z-index: 1; }
 
-.bg {
-  min-height: 100% !important;
-  width: 100%;
-  z-index: 0; }
-
 .ibg-bg {
-  position: absolute;
-  background-position-y: 59%; }
+  position: absolute; }
 
 #maquinas, #maquinaria {
   font-size: 9rem;
@@ -5947,11 +5935,7 @@ h1 {
 
   #maquinaria {
     font-size: 5rem;
-    bottom: 39px; }
-
-  .ibg-bg {
-    position: absolute;
-    background-position: 7px -271px !important; } }
+    bottom: 39px; } }
 @media (min-width: 480px) and (max-width: 767px) {
   .col-sm-11 {
     left: 0px;
