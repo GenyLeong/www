@@ -28,23 +28,23 @@ include ../helpers/mixins.jade
               .row.mt-21
                 .col-xs-6.col-sm-4.trabajos
                   +link('https://genyleong.github.io/user-testing')(class="text-center")(target="_blank")
-                    img(src="assets/img/usertesting.png" class="img-responsive")
+                    img(src="assets/img/usertesting.jpg" class="img-responsive")
                 .col-xs-6.col-sm-4.trabajos
                   +link('https://genyleong.github.io/responsive-blog')(class="text-center")(target="_blank")
-                    img(src="assets/img/blog.png" class="img-responsive")
+                    img(src="assets/img/blog.jpg" class="img-responsive")
                 .col-sm-4.hidden-xs-down.trabajos
                   +link('https://genyleong.github.io/prime/')(class="text-center")(target="_blank")
-                    img(src="assets/img/prime.png" class="img-responsive")
+                    img(src="assets/img/prime.jpg" class="img-responsive")
               .row.mt-21
                 .col-sm-4.hidden-xs-down.trabajos
                   +link('https://genyleong.github.io/flat-theme/')(class="text-center")(target="_blank")
-                    img(src="assets/img/flat.png" class="img-responsive")
+                    img(src="assets/img/flat.jpg" class="img-responsive")
                 .col-xs-6.col-sm-4.trabajos
                   +link('https://genyleong.github.io/backyard')(class="text-center")(target="_blank")
-                    img(src="assets/img/backyard.png" class="img-responsive")
+                    img(src="assets/img/backyard.jpg" class="img-responsive")
                 .col-xs-6.col-sm-4.trabajos
                   +link('http://genyleong.github.io/portfolio/')(class="text-center")(target="_blank")
-                    img(src="assets/img/portfolio.png" class="img-responsive")             
+                    img(src="assets/img/portfolio.jpg" class="img-responsive")             
         .section#section2
           .slide#slide1
             .container-fluid
@@ -59,50 +59,7 @@ include ../helpers/mixins.jade
                   .service
                     .icon-holder
                       img(src="./assets/img/intereses.svg" class="icon" alt="imagen SVG" title="imagen SVG")
-                    .description  
-                      h4 Servidores. 
-                      span 
-                        p Redes. 
-                      span
-                        p Automatización de procesos operativos. 
-                      span
-                        h4 Programación. 
-                      span
-                        p Python. 
-                      span
-                        p Metodologías Agiles. 
-                      span
-                        h4 Sistemas transaccionales. 
-                      span 
-                        p DDoS. 
-                      span
-                        h4 Seguridad Informática. 
-                    .description
-                      h3 Otros asuntos que me mantienen viva:
-                      span
-                        h4 Arte. 
-                      span
-                        p Literatura. 
-                      span
-                        h4 Música. 
-                      span
-                        h4 Cine. 
-                      span
-                        p Culturas urbanas. 
-                      span
-                        p Deportes de aventura. 
-                      span
-                        p Tiempo para mi. 
-                      span
-                        h4 Libertad. 
-                      span
-                        h4 Viajes. 
-                      span
-                        p Conocer gente inteligente. 
-                      span
-                        p Series. 
-                      span
-                        h4 Gatos.
+                    +intereses
           .slide#slide2
             .container-fluid
               .row.padding_section2.mg-0
@@ -110,51 +67,7 @@ include ../helpers/mixins.jade
                   .service
                     .icon-holder.position_btn2
                       img(src="./assets/img/intereses.svg" class="icon" alt="imagen SVG" title="imagen SVG")
-                    .description  
-                      h4 Servidores. 
-                      span 
-                        p Redes. 
-                      span
-                        p Automatización de procesos operativos. 
-                      span
-                        h4 Programación. 
-                      span
-                        p Python. 
-                      span
-                        p Metodologías Agiles. 
-                      span
-                        h4 Sistemas transaccionales. 
-                      span 
-                        p DDoS. 
-                      span
-                        h4 Seguridad Informática. 
-                    .description
-                        h3 Otros asuntos que me mantienen viva:
-                        span
-                          h4 Arte. 
-                        span
-                          p Literatura. 
-                        span
-                          h4 Música. 
-                        span
-                          h4 Cine. 
-                        span
-                          p Culturas urbanas. 
-                        span
-                          p Deportes de aventura. 
-                        span
-                          p Tiempo para mi. 
-                        span
-                          h4 Libertad. 
-                        span
-                          h4 Viajes. 
-                        span
-                          p Conocer gente inteligente. 
-                        span
-                          p Series. 
-                        span
-                          h4 Gatos.
-
+                    +intereses
           .slide#slide3
             .container-fluid
               h1.text-center Más de mi experiencia y/o contacto
